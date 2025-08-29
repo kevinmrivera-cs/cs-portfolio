@@ -1,16 +1,43 @@
-# Compiled class files
+# ------------------------
+# Build / Class Files
+# ------------------------
 *.class
+/out/
+/build/
+/target/
 
-# Log files
+# ------------------------
+# IntelliJ IDEA
+# ------------------------
+.idea/
+/*.iml
+*.ipr
+*.iws
+
+# ------------------------
+# Logs
+# ------------------------
 *.log
 
-# BlueJ files
-*.ctxt
+# ------------------------
+# OS System Files
+# ------------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
 
-# Package archives
+# Linux
+*~
+
+# ------------------------
+# Archives / Packages
+# ------------------------
 *.jar
 *.war
 *.nar
@@ -19,20 +46,8 @@
 *.tar.gz
 *.rar
 
-# VM crash logs
+# ------------------------
+# Crash Logs
+# ------------------------
 hs_err_pid*
 replay_pid*
-
-# -------------------------------
-# IntelliJ IDEA
-.idea/
-*.iml
-
-# Build output directories
-out/
-build/
-target/
-
-# Mac / Windows system files
-.DS_Store
-Thumbs.db
