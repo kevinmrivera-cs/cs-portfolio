@@ -29,8 +29,6 @@ public class MainDriver {
             try (Scanner inputStream = new Scanner(in, StandardCharsets.UTF_8)) {
                 while (inputStream.hasNextLine()) {
                     String lineScan = inputStream.nextLine().trim();
-                    if (lineScan.isEmpty()) continue; // skip blank lines
-                    // delimiter: optional whitespace, then "<>", optional whitespace
                     String[] employeeInfo = lineScan.split("\\s*<>\\s*");
                     employeeList.addEmployee(new Employee(employeeInfo));
                 }
